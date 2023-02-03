@@ -74,7 +74,7 @@ h1, h2, h3 {
 }
 
 #hero-image {
-    height: 600px;
+    height: 550px;
     width:100%;
     overflow: hidden;
 
@@ -90,6 +90,7 @@ h1, h2, h3 {
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
 
     width: 300px;
     height: 200px;
@@ -109,21 +110,33 @@ h1, h2, h3 {
 
 /* introduction section */
 
-#intro {
+#intro{
     height: 400px;
-    width: 100%;
+
+    margin: 20px;
 }
 
-#intro-para {
-    padding-top: 30px;
-    width: 66%;
-    float:left;
-    background-color: blue;
+#intro-info {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 55%;
+    float: left;
+
+   
 }
 
-#intro-image {
-    padding-top: 30px;
-    width: 33%;
+#intro-img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 35%;
     float: right;
-    background-color: red;
+
 }
+
+#intro-img figcaption {
+    text-align: center;
+}
+
+
+/* Early Life/edcation Section */
+
