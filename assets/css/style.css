@@ -110,11 +110,8 @@ h1, h2, h3 {
 
 /* introduction section */
 
-
-
-
-#intro{
-    height: 400px;
+.title-left {
+    height: 550px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -122,63 +119,47 @@ h1, h2, h3 {
 
     background-color: #5c4e42;
     color: #f6f2ec;
+
+    margin-top: 60px;
     
-    margin-bottom: 50px;
+
 }
 
-.heading-left {
-    margin-bottom: 20px;
+#intro-para {
     color: #f6f2ec;
+
+    padding-left: 60px;
+    padding-right: 30px;
 }
 
-#intro-info {
-    width: 50%;
-    margin-left: 30px;
-    padding-left: 30px ;
+#intro-para h2 {
+    color: #f6f2ec;
+
+    padding-bottom: 20px;
 }
 
 #intro-img {
-    width:40%;
-    margin-right: 30px;
-    text-align: center;
+    padding-right: 60px;
 }
-
-
-
 
 #intro-img figcaption {
     text-align: center;
+    margin-top: 10px;
 }
+
+
 
 
 /* Early Life/edcation Section */
 
-
-#early {
-    height: 400px;
+.title-right {
+    height: 550px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    margin-bottom: 50px;
-    padding: 30px 0 30px 0;
 
- 
-}
 
-.heading-right {
-    margin-bottom: 20px;
-}
 
-#early-info {
-    width: 50%;
-    margin-left: 30px;
-    padding-left: 30px ;
-}
 
-#early-img {
-    width:40%;
-    margin-right: 30px;
-    text-align: center;
-}
+
