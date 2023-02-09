@@ -122,7 +122,6 @@ h1, h2, h3 {
 
     margin-top: 60px;
     
-
 }
 
 #intro-info {
@@ -168,6 +167,7 @@ h1, h2, h3 {
 
 #early-img figcaption {
     text-align: center;
+    margin-top: 10px;
 }
 
 #early-info {
@@ -185,7 +185,47 @@ h1, h2, h3 {
 
 /* Pre war section */
 
+.title-left {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    background-color: #5c4e42;
+    color: #f6f2ec;
+
+    margin-top: 60px;
+    
+}
+
+#during-war-info {
+    color: #f6f2ec;
+
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+#during-war-info h2 {
+    color: #f6f2ec;
+
+    padding-bottom: 20px;
+}
+
+#during-war-info p {
+    padding-bottom: 10px;
+}
+
+
+#during-war-img {
+    padding-right: 60px;
+    padding-top: 40px;
+}
+
+#during-war-img figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
