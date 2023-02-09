@@ -234,7 +234,28 @@ figcaption {
     padding-bottom: 10px;
 }
 
+/* Sexuality Section */
+
+#sexuality-info {
+    color: #f6f2ec;
+
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+#sexuality-info h2 {
+    color: #f6f2ec;
+
+    padding-bottom: 20px;
+}
+
+#sexuality-info p {
+    padding-bottom: 10px;
+}
 
 
-
+#sexuality-img {
+    padding-right: 60px;
+    padding-top: 40px;
+}
 
