@@ -111,7 +111,7 @@ h1, h2, h3 {
 /* introduction section */
 
 .title-left {
-    height: 550px;
+    height: 600px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -125,14 +125,14 @@ h1, h2, h3 {
 
 }
 
-#intro-para {
+#intro-info {
     color: #f6f2ec;
 
     padding-left: 60px;
     padding-right: 30px;
 }
 
-#intro-para h2 {
+#intro-info h2 {
     color: #f6f2ec;
 
     padding-bottom: 20px;
@@ -153,11 +153,34 @@ h1, h2, h3 {
 /* Early Life/edcation Section */
 
 .title-right {
-    height: 550px;
+    height: 600px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#early-img {
+    padding-left: 60px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+#early-img figcaption {
+    text-align: center;
+}
+
+#early-info {
+    padding-right: 60px;
+}
+
+#early-info h2 {
+    padding-bottom: 20px;
+}
+
+#early-info p {
+    padding-bottom: 10px;
+}
 
 
 
