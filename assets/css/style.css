@@ -107,8 +107,7 @@ h1, h2, h3 {
 }
 
 
-
-/* introduction section */
+/* Information sections */
 
 .title-left {
     height: 600px;
@@ -120,9 +119,26 @@ h1, h2, h3 {
     background-color: #5c4e42;
     color: #f6f2ec;
 
-    margin-top: 60px;
+ 
     
 }
+
+.title-right {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/* introduction section */
 
 #intro-info {
     color: #f6f2ec;
@@ -141,23 +157,12 @@ h1, h2, h3 {
     padding-right: 60px;
 }
 
-#intro-img figcaption {
-    text-align: center;
-    margin-top: 10px;
-}
 
 
 
 
 /* Early Life/edcation Section */
 
-.title-right {
-    height: 600px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 #early-img {
     padding-left: 60px;
@@ -165,10 +170,6 @@ h1, h2, h3 {
     padding-top: 30px;
 }
 
-#early-img figcaption {
-    text-align: center;
-    margin-top: 10px;
-}
 
 #early-info {
     padding-right: 60px;
@@ -185,19 +186,6 @@ h1, h2, h3 {
 
 /* Pre war section */
 
-.title-left {
-    height: 600px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: #5c4e42;
-    color: #f6f2ec;
-
-    margin-top: 60px;
-    
-}
 
 #during-war-info {
     color: #f6f2ec;
@@ -222,10 +210,30 @@ h1, h2, h3 {
     padding-top: 40px;
 }
 
-#during-war-img figcaption {
-    text-align: center;
-    margin-top: 10px;
+
+
+/* Post WWII Section */
+
+
+#post-war-img {
+    padding-left: 60px;
+    padding-right: 30px;
+    padding-top: 30px;
 }
+
+
+#post-war-info {
+    padding-right: 60px;
+}
+
+#post-war-info h2 {
+    padding-bottom: 20px;
+}
+
+#post-war-info p {
+    padding-bottom: 10px;
+}
+
 
 
 
