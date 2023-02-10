@@ -78,7 +78,7 @@ h1, h2, h3 {
     width:100%;
     overflow: hidden;
 
-    background-image:url("../images/Enigma-machine.png");
+    background-image:url("../images/enigma-machine.png.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,6 +175,14 @@ figcaption {
     font-size: 1.3rem;
 }
 
+#during {
+    padding-bottom: 40px;
+}
+
+#during-img {
+    padding-top: 70px;
+}
+
 
 
 
@@ -205,13 +213,30 @@ footer {
  /* For large to medium sized screens (1200px wide and below) */
 
  @media screen and (max-width: 1200px) {
-    #main-content {
-        width: 65%;
-        height: 1200px;
+    #header-content {
+        width: auto;
         margin: 0 auto;
     }
 
+    .title-left, .title-right {
+        display: block;
+        text-align: center;
+        height: auto;
+        padding: 60px 30px;
+    }
+
+    .img-left, .img-right {
+        text-align: center;
+        padding: 0;
+    }
+
+   
+
+
+   
   
  }
+
+
     
  
