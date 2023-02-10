@@ -107,21 +107,41 @@ h1, h2, h3 {
 }
 
 
-/* Information sections */
+/* Main Home page content */
+
+
+
+/*title left*/
 
 .title-left {
     height: 600px;
     width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    
     background-color: #5c4e42;
     color: #f6f2ec;
-
- 
-    
 }
+
+.title-left h2 {
+    color: #f6f2ec;
+    padding-bottom: 20px;
+}
+
+.para-left {
+    padding: 0 30px 0 60px;
+}
+
+.img-right {
+    padding-right: 60px;
+}
+
+
+
+/*title right*/
 
 .title-right {
     height: 600px;
@@ -131,131 +151,67 @@ h1, h2, h3 {
     align-items: center;
 }
 
+.title-right h2 {
+    padding-bottom: 20px;
+}
+
+.para-right {
+    padding: 0 60px 0 30px;
+
+}
+
+.img-left {
+    padding-left: 60px;
+
+}
+
+.para-left p, .para-right p {
+    padding-bottom: 10px;
+}
+
 figcaption {
     text-align: center;
     margin-top: 10px;
-}
-
-
-
-/* introduction section */
-
-#intro-info {
-    color: #f6f2ec;
-
-    padding-left: 60px;
-    padding-right: 30px;
-}
-
-#intro-info h2 {
-    color: #f6f2ec;
-
-    padding-bottom: 20px;
-}
-
-#intro-img {
-    padding-right: 60px;
+    font-size: 1.3rem;
 }
 
 
 
 
+ /*Footer section*/
 
-/* Early Life/edcation Section */
+footer {
+    height: 150px;
+}
 
+.social-networks {
+    text-align: center;
+}
 
-#early-img {
-    padding-left: 60px;
-    padding-right: 30px;
-    padding-top: 30px;
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    
 }
 
 
-#early-info {
-    padding-right: 60px;
-}
+ /* Media Queries */
 
-#early-info h2 {
-    padding-bottom: 20px;
-}
+ /* For large to medium sized screens (1200px wide and below) */
 
-#early-info p {
-    padding-bottom: 10px;
-}
+ @media screen and (max-width: 1200px) {
+    #main-content {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
-
-/* Pre war section */
-
-
-#during-war-info {
-    color: #f6f2ec;
-
-    padding-left: 60px;
-    padding-right: 30px;
-}
-
-#during-war-info h2 {
-    color: #f6f2ec;
-
-    padding-bottom: 20px;
-}
-
-#during-war-info p {
-    padding-bottom: 10px;
-}
-
-
-#during-war-img {
-    padding-right: 60px;
-    padding-top: 40px;
-}
-
-
-
-/* Post WWII Section */
-
-
-#post-war-img {
-    padding-left: 60px;
-    padding-right: 30px;
-    padding-top: 30px;
-}
-
-
-#post-war-info {
-    padding-right: 60px;
-}
-
-#post-war-info h2 {
-    padding-bottom: 20px;
-}
-
-#post-war-info p {
-    padding-bottom: 10px;
-}
-
-/* Sexuality Section */
-
-#sexuality-info {
-    color: #f6f2ec;
-
-    padding-left: 60px;
-    padding-right: 30px;
-}
-
-#sexuality-info h2 {
-    color: #f6f2ec;
-
-    padding-bottom: 20px;
-}
-
-#sexuality-info p {
-    padding-bottom: 10px;
-}
-
-
-#sexuality-img {
-    padding-right: 60px;
-    padding-top: 40px;
-}
-
+  
+ }
+    
+ 
